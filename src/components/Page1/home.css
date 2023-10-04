@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+.homepage {
+    position: relative;
+}
+.textitems {
+    position:absolute;
+}
+
+.bckimg {
+    height: 705px;
+    margin-left: 600px;
+    margin-top: 0px;
+}
+
+.textitems {
+    margin-top: 0;
+    padding-top: -100px;
+}
+
+.text {
+    font-family:'' ;
+    font-size: 60px;
+    font-weight: 50px;
+    margin-left: 250px;
+    margin-top: 230px
+}
+
+.text2 {
+    font-size: 35px;
+    margin-left:250px;
+    padding-top: 20px;
+}
+
+.main-name {
+    color: #9d54c2
+}

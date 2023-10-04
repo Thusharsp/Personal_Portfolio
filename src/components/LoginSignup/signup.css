@@ -1,0 +1,92 @@
+.Signup {
+    display: flex;
+    flex-direction: column;
+    margin:auto;
+    margin-top: 100px;
+    background-color:azure;
+    padding-bottom: 20px;
+    width: 35%;
+    height: 500px;
+    padding-top: 40px;
+    border-radius: 20px;
+}
+
+.Header {
+    padding-bottom: 30px;
+    font-size: 35px;
+    text-align: center;
+    font-weight: 1000;
+    color: blue;
+    padding-bottom: 15px;
+
+}
+
+.Name {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    padding-top: 25px;
+    padding-bottom: 10px;
+   
+}
+
+.namebox {
+    padding-left: 15%;
+    width: 50%;
+    height: 50px;
+    border-radius: 10px;
+    color: #000;
+}
+
+.Email {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    padding-top: 25px;
+    padding-bottom: 10px;
+}
+
+.emailbox {
+    padding-left: 15%;
+    width: 50%;
+    height: 50px;
+    border-radius: 10px;
+    color: #000;
+}
+
+.Password {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    padding-top: 15px;
+    
+}
+
+.passbox {
+    padding-left: 15%;
+    width: 50%;
+    height: 50px;
+    border-radius: 10px;
+    color: #000;
+}
+
+.register{
+    color:beige;
+    width: 100px;
+    height: 65px;
+    border-radius: 20px;
+    font-size: 20px;
+    background-color: rgb(112, 3, 112);
+    font-weight: 600;
+    align-items: center;
+}
+
+.regbtn {
+    float: center;
+    display: block;
+    padding-left: 200px;
+    padding-top: 30px;
+}

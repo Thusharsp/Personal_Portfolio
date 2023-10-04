@@ -1,0 +1,59 @@
+.wrap {
+    align-items: center;
+    padding-left: 400px;
+    padding-top: 10px;
+}
+
+.info {
+    font-size: 50px;
+    
+}
+
+.wrapper {
+    display: inline-flex;
+    padding-top: 10px;
+}
+
+.wrapper .static-text {
+    font-size: 40px;
+    font-weight: 400;
+    padding-top: 10px;
+}
+
+.wrapper span{
+    color: #9d54c2;
+}
+
+.wrapper .dynamic-txts {
+    margin-left: 15px;
+}
+
+.dynamic-txts li{
+    list-style: none;
+    font-size: 40px;
+    font-weight: 500;   
+    padding-top: 10px;
+}
+
+.dynamic-txts li span{
+    position: relative;
+    
+}
+
+.dynamic-txts li span::after{
+    content: " ";
+    position: absolute;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: black;
+    border-left: 2px solid #9d54c2;
+    animation: typing 1.5s steps(10) infinite;
+}
+
+@keyframes typing {
+    100%{
+        left:100%;
+        margin: 0 -35px 0 35px;
+    }
+}
